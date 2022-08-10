@@ -28,7 +28,7 @@
             <div class="bottom">
                 <div class="container">
                     <h1>
-                        <a href="/project">
+                        <a href="">
                             <img src="./img/logo.png" alt="<?= $title ?>">
                         </a>
                     </h1>

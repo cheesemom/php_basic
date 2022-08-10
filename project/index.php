@@ -15,18 +15,11 @@
         <ul class="container">
             <li>
                 <ul>
-                    <li>
-                        <a href="">Lorem ipsum dolor sit amet. <span>2022.12.25</span></a>
-                    </li>
-                    <li>
-                        <a href="">Lorem ipsum dolor sit amet. <span>2022.12.25</span></a>
-                    </li>
-                    <li>
-                        <a href="">Lorem ipsum dolor sit amet. <span>2022.12.25</span></a>
-                    </li>
-                    <li>
-                        <a href="">Lorem ipsum dolor sit amet. <span>2022.12.25</span></a>
-                    </li>
+                    <li><a href="">11111</a></li>
+                    <li><a href="">22222</a></li>
+                    <li><a href="">33333</a></li>
+                    <li><a href="">44444</a></li>
+                    <li><a href="">55555</a></li>
                 </ul>
             </li>
             <li>
