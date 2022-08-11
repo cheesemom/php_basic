@@ -13,17 +13,18 @@
             <p><? $e_slogan ?></p>
         </div>
     </section>
+
     <section class="Customer">
         <ul class="container">
             <li>
                 <div class="list">
                     <h3>news &amp notice <small><a href="">more<i class="xi-arrow-right"></i></a></small></h3>
                     <ul>
-                        <li><a href="">가나다라마바사<span>2022.08.11</span></a></li>
-                        <li><a href="">가나다라마바사<span>2022.08.11</span></a></li>
-                        <li><a href="">가나다라마바사<span>2022.08.11</span></a></li>
-                        <li><a href="">가나다라마바사<span>2022.08.11</span></a></li>
-                        <li><a href="">가나다라마바사<span>2022.08.11</span></a></li>
+                        <li><a href="">가나다라마바사 ... <span>2022.08.11</span></a></li>
+                        <li><a href="">가나다라마바사 ... <span>2022.08.11</span></a></li>
+                        <li><a href="">가나다라마바사 ... <span>2022.08.11</span></a></li>
+                        <li><a href="">가나다라마바사 ... <span>2022.08.11</span></a></li>
+                        <li><a href="">가나다라마바사 ... <span>2022.08.11</span></a></li>
                     </ul>
                 </div>
             </li>
@@ -40,32 +41,18 @@
                         <figure>
                             <img src="./img/product03.jpg" alt="">
                         </figure>
-                </div>
+                    </div>
 
-                <div class="product_arrows">
-                    <i class="xi-arrows-left"></i>
-                    <i class="xi-arrows-right"></i>
+                    <div class="product_arrows">
+                        <i class="xi-arrows-left"></i>
+                        <i class="xi-arrows-right"></i>
+                    </div>
                 </div>
             </li>
-        </ul>
 
             <li>
-                <div class="customerDetail">
-                    <h3>cutomer support</h3>
-                    <p>언제나 열려있는.. </p>
-
-                    <div class="tel">
-                        <a href="tel:<?= $tel ?>"><?= $tel ?></a>
-                    </div>
-
-                    <div class="email">
-                    <a href="mailto:<?= $email ?>"><?= $email ?></a>
-                    </div>
-                </div>
+            <? include 'customer.php'?>
             </li>
-
-<? include 'customer.php'?>
-
         </ul>
     </section>
 </main>
