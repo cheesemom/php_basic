@@ -22,5 +22,6 @@
                 <div class="Lnb">
                     <? include 'nav.php' ?>
                 </div>
+                <? include 'customer.php'?>
             </aside>
             <article>

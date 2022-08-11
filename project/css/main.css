@@ -73,6 +73,190 @@ body {
     transform: translateY(-50%);
 }
 
+.MainVisual .MainSlider figure {
+    height: 600px;
+}
+
+.MainVisual .MainSlider .itm01 {
+    background: url(../img/main01.jpg) no-repeat center center/cover;
+}
+
+.MainVisual .MainSlider .itm02 {
+    background: url(../img/main02.jpg) no-repeat center center/cover;
+}
+
+
+.MainVisual {
+    position: relative;
+}
+
+.MainVisual .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    color: var(--wc);
+}
+
+.MainVisual .slogan h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0 0 3px var(--dc);
+    margin: 0 0 10px 0;
+}
+
+.MainVisual .slogan p {
+    font-size: 15px;
+    text-shadow: 0 0 1px var(--dc);
+}
+
+.MainVisual .slick-dots {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.MainVisual .slick-dots button {
+    display: none;
+}
+
+.MainVisual .slick-dots li {
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background: var(--wc);
+    margin: 0 2px;
+}
+
+.MainVisual .slick-dots li.slick-active {
+    background: var(--mc);
+}
+
+.Customer {
+    padding: 100px 0;
+}
+
+.Customer .container {
+    gap: 50px;
+}
+
+.Customer .container>li {
+    flex: 1;
+}
+
+/* .Customer .container {
+    display: block;
+    width: 1250px;
+}
+
+.Customer .container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.Customer .container>li {
+    float: left;
+    width: 33.3333333%;
+    padding: 0 25px;
+    min-height: 450px;
+}
+
+.Customer .container>li~li {
+    border-left: 1px solid var(--bl);
+} */
+
+.Customer .list h3 {
+    font-size: 19px;
+    line-height: 40px;
+    border-bottom: 1px solid var(--bl);
+}
+
+.Customer .list small {
+    float: right;
+}
+
+.Customer .list i {
+    padding: 5px;
+    background: var(--bl);
+    font-size: 12px;
+}
+
+.Customer .list ul>li {
+    line-height: 40px;
+    border-bottom: 1px solid var(--bl);
+}
+
+.Customer .list ul>li span {
+    float: right;
+}
+
+.Customer .slider {
+    position: relative;
+    width: calc(1100px / 3);
+}
+
+.Customer .slider .product_arrows i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background: var(--bl);
+    font-size: 20px;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.Customer .slider .product_arrows i:hover {
+    opacity: 1;
+}
+
+.Customer .slider .product_arrows i:nth-child(1) {
+    left: 0;
+}
+
+.Customer .slider .product_arrows i:nth-child(2) {
+    right: -20px;
+}
+
+.ProductSlider figure {
+    height: 250px;
+    overflow: hidden;
+}
+
+.customerDetail {
+    padding: 0 0 50px 0;
+}
+
+.customerDetail h3 {
+    line-height: 40px;
+    font-size: 19px;
+    line-height: 40px;
+    border-bottom: 1px solid var(--bl);
+    margin: 0 0 20px 0;
+}
+
+.customerDetail p {
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.customerDetail .tel {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.customerDetail .email {
+    font-size: 15px;
+}
+
+
+
+
+
 .SubMain {
     padding: 100px 0;
     color: var(--wc);
@@ -109,6 +293,10 @@ body {
     padding: 50px 0 100px 50px;
 }
 
+.Lnb {
+    margin: 0 0 50px 0;
+}
+
 .Lnb ul li {
     line-height: 40px;
     border-bottom: 1px solid var(--bl);
@@ -120,4 +308,38 @@ body {
 
 .Lnb ul li a {
     display: block;
+}
+
+.Footer {
+    border-top: 1px solid var(--bl);
+    padding: 30px 0 50px 0;
+}
+
+.Footer .logo {
+    margin: 0 50px 0 0;
+}
+
+.Footer address {
+    font-size: 15px;
+}
+
+.Footer address ul {
+    margin: 0 0 10px 0;
+}
+
+.Footer address ul>li {
+    display: inline-block;
+}
+
+.Footer address ul>li~li::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 11px;
+    background: var(--bl);
+    margin: 0 10px;
+}
+
+.Footer address .copyright {
+    font-size: 12px;
 }
